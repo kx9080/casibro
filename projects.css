@@ -1,0 +1,508 @@
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  display: inline;
+  color: #e0e1dd;
+}
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001219;
+  column-gap: 0.00001%;
+}
+nav div * {
+  margin: 10px;
+  color: whitesmoke;
+}
+nav div a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+header {
+  margin-bottom: 10px;
+}
+a {
+  font-weight: 400;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.8rem;
+  background-color: #1d263b;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 1px;
+  text-decoration: none;
+  color: #e0e1dd;
+}
+img {
+  border-radius: 5%;
+}
+main div {
+  margin: 15px;
+  background-color: rgb(49, 50, 68);
+  border-radius: 5%;
+  padding: 1.5rem;
+  width: 60vw;
+  align-items: center;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 5px 5px #0e1c2d;
+}
+p {
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  margin: 1.5vw;
+  margin-left: 1.5vw;
+  color: #e0e1dd;
+}
+main div img {
+  width: 50vw;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 5px;
+}
+footer {
+  margin-top: 20px;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  color: #ffffff;
+}
+
+input[data-coloris] {
+  all: unset; /* removes Coloris’ default input styling */
+  border: 2px solid #444;
+  border-radius: 6px;
+  padding: 6px 10px;
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  width: 5vw;
+}
+
+input[type="range"] {
+  margin: auto;
+  -webkit-appearance: none;
+  position: relative;
+  overflow: hidden;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 0; /* iOS */
+}
+
+.navcontexttext {
+  width: 5vw;
+  min-height: 10%;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.top {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.bottom {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.inner {
+  border-radius: 5px;
+}
+
+.fa-copyright {
+  margin-top: 9px;
+  font-size: 2rem;
+}
+
+.noborder {
+  background: none;
+  color: black;
+}
+.blackborder {
+  background-color: #dbe4ff;
+  color: black;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* Silly Slider from Noah Blon on Codepen */
+
+::-webkit-slider-runnable-track {
+  background: #ddd;
+}
+
+/*
+ * 1. Set to 0 width and remove border for a slider without a thumb
+ * 2. Shadow is negative the full width of the input and has a spread 
+ *    of the width of the input.
+ */
+::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px; /* 1 */
+  height: 40px;
+  background: #fff;
+  box-shadow: -200px 0 0 200px dodgerblue; /* 2 */
+  border: 1px solid #000000; /* 1 */
+}
+
+::-moz-range-track {
+  height: 40px;
+  background: #ddd;
+}
+
+::-moz-range-thumb {
+  background: #fff;
+  height: 40px;
+  width: 20px; /* 1 */
+  border: 1px solid #000000; /* 1 */
+  border-radius: 0 !important;
+  box-shadow: -200px 0 0 200px dodgerblue;
+  box-sizing: border-box;
+}
+
+::-ms-fill-lower {
+  background: dodgerblue;
+}
+
+::-ms-thumb {
+  background: #fff;
+  border: 2px solid #999; /* 1 */
+  height: 40px;
+  width: 20px; /* 1 */
+  box-sizing: border-box;
+}
+
+::-ms-ticks-after {
+  display: none;
+}
+
+::-ms-ticks-before {
+  display: none;
+}
+
+::-ms-track {
+  background: #ddd;
+  color: transparent;
+  height: 40px;
+  border: none;
+}
+
+::-ms-tooltip {
+  display: none;
+}
+
+/* Background Options */
+
+.gradient {
+  background-color: rgb(30, 30, 46);
+}
+
+/* Background Options End */
+
+/* Projects Page */
+
+.projectlink {
+  border-radius: 5px;
+  margin: 7px;
+  padding: 5px;
+  background-color: #b7c9fd;
+}
+
+.altereddivcolor {
+  background-color: #20293a;
+}
+
+/* Projects Page End */
+
+/* Fonts */
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Fonts End */
+
+/* Error Page */
+
+.errortext {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.errorbutton {
+  background-color: #1d263b;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+/* Error Page End */
+
+/* Navbar Styling */
+
+.homebutton {
+  font-size: x-large;
+  background: none;
+}
+
+.navbar {
+  max-width: 100%;
+}
+
+.navbutton1 {
+  min-height: 10%;
+  min-width: 15%;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-right: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.navbuttoncenter {
+  width: 8vw;
+  min-height: 1.8vw;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.navbuttonright {
+  max-width: 15%;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-left: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Navbar Styling End */
+
+.noshadow {
+  box-shadow: none;
+}
+.biggericon {
+  font-size: 1.5rem;
+}
+.biggercontainer {
+  width: auto;
+}
+.home {
+  align-items: center;
+  row-gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.stubborn-width {
+  width: 60vw;
+  margin-left: 21vw;
+  margin-right: 19vw;
+}
+
+.canvaswidth {
+  width: 1800px;
+  margin-left: 21vw;
+  margin-right: 19vw;
+}
+
+.smaller {
+  font-size: 1rem;
+}
+
+/* Animation */
+
+.fade5 {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+}
+.fade7 {
+  animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+}
+.fade9 {
+  animation: fadeIn 9s;
+  -webkit-animation: fadeIn 9s;
+}
+.fade11 {
+  animation: fadeIn 11s;
+  -webkit-animation: fadeIn 11s;
+}
+.hover {
+  transition: all 250ms;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  -ms-transition: all 250ms;
+  -o-transition: all 250ms;
+}
+.hover:hover {
+  width: 62vw;
+  box-shadow: 0 0 2px 2px #152942;
+}
+
+main div:hover {
+  width: 300;
+}
+
+.hoverbutton {
+  transition: all 250ms;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  -ms-transition: all 250ms;
+  -o-transition: all 250ms;
+}
+
+.hoverbutton:hover {
+  background-color: #243247;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+/* Animation End */
+
+/* colors */
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.grey-bg {
+  background-color: grey;
+}
+
+.black {
+  color: black;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.vanusa-gradient {
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* colors end */
+
+/* tour */
+
+.tourtext {
+  margin: 20px;
+  padding: 15px;
+  background-color: #4b0082;
+  border-radius: 15px;
+  color: whitesmoke;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.tourbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tourgradient {
+  background-color: #ff3cac;
+  background-image: linear-gradient(#ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+}
+
+/* tour end */
